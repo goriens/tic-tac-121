@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.square{
+  height: 7rem;
+  width: 7rem;
+  border: 6px solid rgba(0, 0, 0, 0.729);
+  font-size: 5rem;
+  padding: 5px 5px 5px 5px;
+  cursor: pointer;
+  border-radius:20px 20px 0px 20px;
+  -webkit-border-radius:20px 20px 0px 20px;
+  -moz-border-radius:20px 20px 0px 20px;
+  -ms-border-radius:20px 20px 0px 20px;
+  -o-border-radius:20px 20px 0px 20px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.board{
+  width: 25rem;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 0.1rem;
+  margin-top:50px;
+}
+.game-over{
+  max-width: 40%;
+  padding:50px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.game-over span{
+  font-size:4rem;
+  font-weight: 600;
+  margin-left: 1rem;
+  margin: 10px;
+}
+.btn{
+  width:9rem;
+  margin: auto;
+  padding: 10px;
+  background-color:black;
+  color: #fff;
+  font-size: 1.5rem;
+  border-radius:10px;
+  font-weight: bold;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -ms-border-radius:10px;
+  -o-border-radius:10px;
+}
